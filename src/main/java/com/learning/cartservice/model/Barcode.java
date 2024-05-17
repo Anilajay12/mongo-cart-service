@@ -27,4 +27,12 @@ public class Barcode {
     public void setBarcodeData(String barcodeData) {
         this.barcodeData = barcodeData;
     }
+
+    @Override
+    public String toString() {
+        return "Barcode{" +
+                "barcodeId='" + barcodeId + '\'' +
+                ", barcodeData='" + barcodeData + '\'' +
+                '}';
+    }
 }

@@ -40,4 +40,13 @@ public class Product {
         this.barcode = barcode;
     }
 
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId=" + productId +
+                ", productName='" + productName + '\'' +
+                ", barcode=" + barcode +
+                '}';
+    }
 }

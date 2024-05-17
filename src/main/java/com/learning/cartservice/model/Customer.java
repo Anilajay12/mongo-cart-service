@@ -37,4 +37,13 @@ public class Customer {
     public void setPremium(boolean premium) {
         isPremium = premium;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "customerEmail='" + customerEmail + '\'' +
+                ", customerName='" + customerName + '\'' +
+                ", isPremium=" + isPremium +
+                '}';
+    }
 }
